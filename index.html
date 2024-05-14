@@ -20,11 +20,14 @@
           <li><a class="head-menu-link" href="#0">Контакты</a></li>
         </ul>
       </nav>
-      <div class="hamburger-button">
-        <div class="hamburger-button-top"></div>
-        <div class="hamburger-button-middle"></div>
-        <div class="hamburger-button-bottom"></div>
-      </div>
+      <button type="button"class="hamburger-button">
+        <div class="hamburger">
+          <div class="hamburger-top"></div>
+          <div class="hamburger-middle"></div>
+          <div class="hamburger-bottom"></div>
+        </div>
+        <span class="visually-hidden">Меню</span>
+      </button>
     </div>
     <h1 class="first-screen__title container">Блог о творчестве, спорте, и образе жизни</h1>
   </header>
@@ -33,7 +36,6 @@
     <h2 class="section-title-lg">Сейчас в тренде</h2>
     <div class="trends">
       <article class="trend">
-        <img src="images/trend1.jpg" alt="Cад на подоконнике" title="Сейчас в тренде: сад на подоконнике">
         <header class="trend-info">
           <ul class="tag-list trend-tags">
             <li>
@@ -44,7 +46,7 @@
             </li>
           </ul>
           <h3 class="preview-title-lg">
-            <a class="preview-title-link" href="#0">
+            <a class="preview-title-link trend-link" href="#0">
               Сейчас в тренде: сад на подоконнике
             </a>
           </h3>
@@ -52,7 +54,6 @@
       </article>
 
       <article class="trend">
-        <img src="images/trend2.jpg" alt="Cыры на красивых картинках из интернета" title="Cыры на красивых картинках из интернета: какие они на вкус?">
         <header class="trend-info">
           <ul class="tag-list trend-tags">
             <li>
@@ -63,7 +64,7 @@
             </li>
           </ul>
           <h3 class="preview-title-lg">
-            <a class="preview-title-link" href="#0">
+            <a class="preview-title-link trend-link" href="#0">
               Cыры на красивых картинках из интернета: какие они на вкус?
             </a>
           </h3>
@@ -71,7 +72,6 @@
       </article>
 
       <article class="trend">
-        <img src="images/trend3.jpg" alt="Человек фотографирует горы" title="Собираемся в первый поход в горы">
         <header class="trend-info">
           <ul class="tag-list trend-tags">
             <li>
@@ -82,7 +82,7 @@
             </li>
           </ul>
           <h3 class="preview-title-lg">
-            <a class="preview-title-link" href="#0">
+            <a class="preview-title-link trend-link" href="#0">
               Собираемся в первый поход в горы
             </a>
           </h3>
@@ -90,7 +90,6 @@
       </article>
 
       <article class="trend">
-        <img src="images/trend4.jpg" alt="Лимоны" title="Сейчас в тренде: сколько витамина c в лимонах?">
         <header class="trend-info">
           <ul class="tag-list trend-tags">
             <li>
@@ -101,7 +100,7 @@
             </li>
           </ul>
           <h3 class="preview-title-lg">
-            <a class="preview-title-link" href="#0">
+            <a class="preview-title-link trend-link" href="#0">
               Сейчас в тренде: сколько витамина c в лимонах?
             </a>
           </h3>
@@ -113,7 +112,7 @@
   <div class="container second-screen gap-block">
     <main class="news">
       <article class="news-preview">
-        <a href="#0"><img src="images/last-post1.jpg" alt="10 мест, ради которых стоит проснуться на рассвете" title="10 мест, ради которых стоит проснуться на рассвете"></a>
+        <a href="#0"><img class="news-img" src="images/last-post1.jpg" alt="10 мест, ради которых стоит проснуться на рассвете" title="10 мест, ради которых стоит проснуться на рассвете"></a>
         <div class="news-preview-info">
           <header>
             <ul class="tag-list">
@@ -144,7 +143,7 @@
         </div>
       </article>
       <article class="news-preview">
-        <a href="#0"><img src="images/last-post2.jpg" alt="Йога для начинающих в домашних условиях" title="Йога для начинающих в домашних условиях"></a>
+        <a href="#0"><img class="news-img" src="images/last-post2.jpg" alt="Йога для начинающих в домашних условиях" title="Йога для начинающих в домашних условиях"></a>
         <div class="news-preview-info">
           <header>
             <ul class="tag-list">
@@ -175,7 +174,7 @@
         </div>
       </article>
       <article class="news-preview">
-        <a href="#0"><img src="images/last-post3.jpg" alt="Лучшие музыкальные фестивали этого лета" title="Лучшие музыкальные фестивали этого лета"></a>
+        <a href="#0"><img class="news-img" src="images/last-post3.jpg" alt="Лучшие музыкальные фестивали этого лета" title="Лучшие музыкальные фестивали этого лета"></a>
         <div class="news-preview-info">
           <header>
             <ul class="tag-list">
@@ -204,7 +203,7 @@
         </div>
       </article>
       <article class="news-preview">
-        <a href="#0"><img src="images/last-post4.jpg" alt="Наукоёмкий подход к кулинарии" title="Наукоёмкий подход к кулинарии"></a>
+        <a href="#0"><img class="news-img" src="images/last-post4.jpg" alt="Наукоёмкий подход к кулинарии" title="Наукоёмкий подход к кулинарии"></a>
         <div class="news-preview-info">
           <header>
             <ul class="tag-list">
@@ -235,7 +234,7 @@
         </div>
       </article>
       <article class="news-preview">
-        <a href="#0"><img src="images/last-post5.jpg" alt="Делаем модные принты на подушках для интерьера" title="Делаем модные принты на подушках для интерьера"></a>
+        <a href="#0"><img class="news-img" src="images/last-post5.jpg" alt="Делаем модные принты на подушках для интерьера" title="Делаем модные принты на подушках для интерьера"></a>
         <div class="news-preview-info">
           <header>
             <ul class="tag-list">
@@ -513,9 +512,12 @@
   <!--------------- Popup - Начало --------------->
   <input type="checkbox" id="popup-chek" class="popup-toggle">
   <div class="popup visually-hidden">
-    <label for="popup-chek" class="popup-close-background"></label>
+    <label for="popup-chek"></label>
     <div class="popup-content">
-      <label for="popup-chek" class="popup-close">&times;</label>
+      <button type="button" class="popup-close-btn">
+        <label for="popup-chek" class="popup-close">&times;</label>
+        <span class="visually-hidden">Закрыть</span>
+      </button>
       <h2 class="section-title-lg">Ваш фидбек</h2>
       <form class="popup-form" method ="POST" action="/idex.php">
         <div class="form-row">
